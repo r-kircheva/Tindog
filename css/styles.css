@@ -1,0 +1,226 @@
+body
+{
+    font-family: 'Times New Roman', Times, serif;
+    /* not working */
+}
+
+#title
+{
+    background-color: #FF4C68;
+    color: white;
+}
+
+h1
+{
+    font-size: 3rem;
+    line-height: 1.5;
+    /* not working */
+}
+
+.container-fluid
+{
+    padding: 3% 15% 20%; 
+    /* not working for 3 and 15 */
+}
+
+.navbar
+{
+    padding-bottom: 0 0 4.5rem;
+    /* not working */
+}
+
+.navbar-brand
+{
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.nav-item
+{
+    padding: 0 18px;
+}
+
+.nav-link
+{
+    font-size: 1.2rem;
+    font-family: sans-serif;
+}
+
+.download-button
+{
+    margin: 5% 3% 5% 0;
+}
+
+.title-image
+{
+    width: 40%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 50%;
+}
+
+#features
+{
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+}
+
+.feature-box
+{
+    text-align: center;
+    padding: 5%;
+}
+
+h3
+{
+    font-weight: bold;
+}
+
+p
+{
+    color:#8f8f8f;
+}
+
+.icon
+{
+    color:#EF8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover
+{
+    color: #FF4C68;
+}
+
+#testimonials
+{
+    text-align: center;
+    background-color: #EF8172;
+    color: white;
+}
+
+.carousel-item
+{
+    padding: 7% 15%;
+    /* So that the buttons on the testimonials are apart from the text and pics */
+}
+
+h2
+{
+    font-size: 3rem;
+    line-height: 1.5;
+    /* not working */
+}
+
+.testimonial-image
+{
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press
+{
+    padding-bottom: 3%;
+    text-align: center;
+    background-color: #EF8172;
+}
+
+.press-images
+{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+#pricing
+{
+    padding: 100px;
+}
+
+.pricing-colums
+{
+    padding: 3% 2%;
+    text-align: center;
+}
+
+@media (max-width: 990px)
+{
+    #title
+    {
+        text-align: center;
+    }
+
+    .title-image
+    {
+        position: static;
+        transform: rotate(0);
+    }
+
+    
+}
+
+#cta
+{
+    background-color: #FF4C68;
+    text-align: center;
+    padding: 150px;
+
+}
+
+.h3-cta
+{
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding-bottom: 50px;
+    color: white;
+}
+
+.btn-cta
+{
+    margin: 0 20px 0 20px;
+}
+
+#footer
+{
+    padding: 120px;
+    text-align: center;
+
+}
+
+.footer-icons
+{
+    margin: 0 10px 0 10px;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
